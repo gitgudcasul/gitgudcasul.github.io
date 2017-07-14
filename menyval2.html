@@ -1,0 +1,95 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="bilder/pokeball2.png"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Spelwebben - Recensioner</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    <nav class="nav navbar-inverse navbar-static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Spelwebben</a>
+            <ul class="nav navbar-nav">
+                <li><a href="menyval1.html">Nya spel</a></li>
+                <li><a href="menyval2.html">Recensioner</a></li>
+                <li><a href="menyval3.html">Spelhemsidor</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2>Här kan du läsa recensioner om spel som andra hemsidor har skrivit och du kommer även kunna jämföra recensionerna med varandra vilket gör så att du kan se spelet från olika synvinklar.</h2>
+    <ul>
+        <img height="400px" width="700px" src="bilder/overwatchxd.png">
+        <h2>Overwatch</h2>
+        <h3><a href="http://www.ign.com/articles/2016/05/28/overwatch-review" target="_blank">IGN Recension (Engelska)</a></h3>
+        <h3><a href="https://www.gamespot.com/reviews/overwatch-review/1900-6416439/" target="_blank">Gamespot Recension (Engelska)</a></h3>
+        <h3><a href="http://www.pcgamer.com/overwatch-review/" target="_blank">PC Gamer Recension (Engelska)</a></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fT-HvMPJvhA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JF2nEfY_Thg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y779b2A8WjA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FqnKB22pOC0" frameborder="0" allowfullscreen></iframe>
+        
+
+       
+        <img id="ds3" height="400px" width="700px" src="bilder/darksouls.jpg">
+        <h2>Dark Souls III</h2>
+        <h3><a href="https://www.gamespot.com/reviews/dark-souls-3-review/1900-6416397/" target="_blank">Gamespot Recension (Engelska)</a></h3>
+        <h3><a href="http://www.ign.com/articles/2016/04/04/dark-souls-3-review" target="_blank">IGN Recension (Engelska)</a></h3>
+        <h3><a href="http://www.pcgamer.com/dark-souls-3-review/" target="_blank">PC Gamer Recension (Engelska)</a></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b6MXWZ4mheo" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oqxSX2JwcWs" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zfxkDNZ6biI" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_zDZYrIUgKE" frameborder="0" allowfullscreen></iframe>
+
+        
+
+        <img id="ds3" height="400px" width="780px" src="bilder/pokemon.jpg">
+        <h2>Pokémon Sun and Moon</h2>
+        <h3><a href="http://www.ign.com/articles/2016/11/15/pokemon-sun-and-moon-review" target="_blank">IGN Recension (Engelska)</a></h3>
+        <h3><a href="https://www.gamespot.com/reviews/pokemon-sun-and-moon-review/1900-6416574/" target="_blank">Gamespot Recension (Engelska)</a></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fuEtg6NERn8" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JhLT5HVCdwY" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AeyngvqBmWo" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kn25hijDL7c" frameborder="0" allowfullscreen></iframe>
+        
+        <img id="ds3" height="400px" width="780px" src="bilder/titanfall.jpg">
+        <h2>Titanfall 2</h2>
+        <h3><a href="http://www.ign.com/articles/2016/10/28/titanfall-2-review" target="_blank">IGN Recension (Engelska)</a></h3>
+        <h3><a href="https://www.gamespot.com/reviews/titanfall-2-review/1900-6416561/" target="_blank">Gamespot Recension (Engelska)</a></h3>
+        <h3><a href="http://www.pcgamer.com/titanfall-2-review/" target="_blank">PC Gamer Recension (Engelska)</a></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GUfi4ns_nWs" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n6hWXv78nMA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O0iGAplLdrk" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EXwdWuSuiYA" frameborder="0" allowfullscreen></iframe>
+    </ul>
+
+</body>
+</html>

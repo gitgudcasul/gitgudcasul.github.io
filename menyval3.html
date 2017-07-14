@@ -1,0 +1,63 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="bilder/pokeball2.png"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Spelwebben - Spelhemsidor</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    <nav class="nav navbar-inverse navbar-static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Spelwebben</a>
+            <ul class="nav navbar-nav">
+                <li><a href="menyval1.html">Nya spel</a></li>
+                <li><a href="menyval2.html">Recensioner</a></li>
+                <li><a href="menyval3.html">Spelhemsidor</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2>Här kommer du att kunna klicka på olika länkar som vi har lagt in och dessa länkar leder dig till olika spel hemsidor som Steam eller IGN.</h2>
+    <ul>
+
+        <li><a href="https://store.steampowered.com" target="_blank" ">Steam </a><img height="50px" width="50px"src="bilder/steam.png"></li>
+        <li><a href="https://blizzard.com" target="_blank">Blizzard Entertainment </a><img height="70px" width="120px"src="bilder/blizzard.jpg"></li>
+        <li><a href="https://battle.net" target="_blank">Battle.net </a><img height="50px" width="50px"src="bilder/battlenet.png"></li>
+        <li><a href="https://ea.com" target="_blank">Electronic Arts </a><img height="50px" width="50px"src="bilder/ea.png"></li>
+        <li><a href="https://www.ubisoft.com" target="_blank">Ubisoft </a><img height="50px" width="53px"src="bilder/ubisoft2.jpg"></li>
+        <li><a href="https://www.ign.com" target="_blank">IGN </a><img height="50px" width="155px"src="bilder/ign2.png"></li>
+        <li><a href="https://pcgamer.com" target="_blank">PC Gamer </a><img height="50px" width="50px"src="bilder/pcgamer.jpg"></li>
+        <li><a href="https://www.playstation.com" target="_blank">Playstation </a><img height="50px" width="50px"src="bilder/playstation.png"></li>
+        <li><a href="http://www.xbox.com" target="_blank">Xbox </a><img height="50px" width="50px"src="bilder/xbox.png"></li>
+        <li><a href="https://www.nintendo.se/" target="_blank">Nintendo </a><img height="50px" width="200px"src="bilder/nintendo.png"></li>
+    </ul>
+</body>
+</html>

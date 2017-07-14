@@ -1,0 +1,55 @@
+p {
+	color: #ffffff;
+
+  }
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
+h2 {
+	color: #ffffff;
+}
+h3 {
+	color: #ffffff;
+}
+h4 {
+	color: #ffffff;
+}
+h5 {
+	color: #ffffff;
+}
+h6 {
+	color: #ffffff;
+}
+#destiny {
+	color: #ffffff;
+	word-wrap: break-word;
+	width: 500px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    background-color: black;
+}
+
+li > a:hover{
+	color: white;
+	background-color: black !important;
+}
+.navbar-inverse {
+    background-color: black;
+}
+
+.navbar-inverse .navbar-brand {
+    color: grey;
+    font-family: 'Megrim', cursive;
+    font-size: 40px;
+}
+
+body {
+	background-image: url("../bilder/background.png");
+}
+
+#ds3 {
+	margin-top: 80px;
+
+}
